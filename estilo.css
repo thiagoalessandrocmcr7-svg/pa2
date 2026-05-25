@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ul li a{
+    display: block;
+    padding: 14px 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover{
+    color: #ff9900;
+    background-color: #333;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a img {
+    width: 20%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.principal{
+    background-image: url('Imagenes/galeria/WhatsApp\ Image\ 2026-05-24\ at\ 15.54.22.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-con-imagen{
+    display: flex;
+}
+
+.img-ejm{
+    width: 10%;
+    height: auto;
+}
+
+.galeria-imgs:hover{
+    display: flex;
+}
+
+
+.galeria-imgs img{
+    flex: 1;      
+    min-width: 0;   
+    max-width: 10%;
+    height: auto;   
+    object-fit: cover;  
+}
+
